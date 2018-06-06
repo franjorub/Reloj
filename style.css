@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(6, 201, 250);
+}
+
+.clock-face {
+    width: 150px;
+    height: 150px;
+    border: 8px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hands {
+    background: white;
+    transform-origin: left center;
+    width: 75px;
+    height: 10px;
+    position: relative;
+    left: 25%;
+    top: -1%;
+    transition: 1s cubic-bezier(.17, .67, .69, 1.48);
+}
